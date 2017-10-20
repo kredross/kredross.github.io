@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  var img1 = $("#yo")
 // manifest = [
 
 //     "/1.png",
@@ -110,7 +111,7 @@ $(document).ready(function () {
    * @method _setProgress
    * @param {Object} targetElement
    */
-  function _setProgress(img) {
+  function _setProgress(img1) {
     //if the target element already as `data-progressjs`, ignore the init
     if (targetElement.hasAttribute("data-progressjs"))
       return;
